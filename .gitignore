@@ -1,0 +1,36 @@
+# ===== Keil MDK 编译产物 =====
+Objects/
+Listings/
+DebugConfig/
+build/
+bin/
+obj/
+out/
+*.o
+*.d
+*.crf
+*.dep
+*.axf
+*.iex
+
+# ===== Keil / J-Link 用户级文件 =====
+*.uvguix.*
+JLinkLog.txt
+JLinkSettings.ini
+
+# ===== EIDE / VSCode =====
+.eide/log/
+/.vscode/launch.json
+/.settings
+*.ept
+
+# ===== Python =====
+__pycache__/
+*.py[cod]
+
+# ===== 通用 =====
+*.bak
+*.tmp
+Thumbs.db
+desktop.ini
+.DS_Store
